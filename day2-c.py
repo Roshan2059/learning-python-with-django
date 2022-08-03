@@ -1,4 +1,4 @@
-# #day2
+#day2
 
 a = "hello "
 b = "world\n"

@@ -1,0 +1,22 @@
+ if <codition>:
+ <operations>
+ elif <condition>:
+ <opreations>
+ else:
+ <operations>
+
+ If the condition inside the if is true then the statement inside the if will be exexuted
+ If the condition inside the elif is true then the statement inside the eliif will be exexuted
+ If the condition inside the if and elif are not  true then the statement inside the else will be exexuted
+
+ comparison operators
+ < less than
+ > greater than
+ <= less than or equals to
+ >= greater than or equals to
+ == equals to
+ != not equal to
+
+logical operators
+ & --> and
+ | --> or
