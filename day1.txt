@@ -1,0 +1,21 @@
+# day1-notes
+
+#There are generally 4 main data type:
+# They are:
+# 1. Integer
+# eg: a = 20
+# 2. float
+# eg: b = 10.5
+# 3. boolean
+# eg: c = True
+# 4. String
+# eg: d = "Hello world"
+# The string can be either enclosed in double quotes or single quotes
+
+# To know the data type of the constant there is a function called "type()"
+# Example:
+# a = 10
+# print(type(a))
+
+# ** --> power
+# // --> floor division only prints the whole number

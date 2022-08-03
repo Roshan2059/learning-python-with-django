@@ -1,0 +1,39 @@
+#day2-notes
+
+# To Concatenate string we should use , or + operator
+# example:
+# a = "Hi!"
+# b = "I am Roshan"
+# c = a + b
+# print(c)
+
+# we cannot concatenate a number and string
+# if we take integer type input from user and try to concatenate it with the string then the program will throw an error this is because we cannot concatenate a number and a string
+# for this we have to explicitly change the type of the variable
+# example:
+# a = int(input("Enter your age:"))
+# print("Your age is: " + str(a)) 
+
+# We can also take input from user:
+# To take a input from user we should use a function called "input()"
+# example:
+# a = input()
+# print(a)
+
+# To take input from the users with some instructions we have to write some text inside the input() function
+# Example:
+# age = input("Enter your age:")
+# print(age)
+
+# By default the number which is given by the user is in the form of string 
+# i.e. in the above example we can literally type the input hello
+# note: run the above example and type hello
+# The statement will run without any error this is because the input given by the user is in the form of string by default
+
+# So in order to take the input other than the string format i.e. int or float, then we have to explicitly define the data type enclosing the input() function
+# example:
+# age = int(input("Enter your age:"))
+# print(age)
+
+# per = float(input("Enter your percentage:"))
+# print(per)

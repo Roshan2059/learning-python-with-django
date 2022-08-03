@@ -1,30 +1,32 @@
-# a = "hello "
-# b = "world\n"
-# c = a + b
-# print(c)
+# #day2
 
-# print(c*2)
+a = "hello "
+b = "world\n"
+c = a + b
+print(c)
 
-# a = True
-# b = False
-# print(a+b)
+print(c*2)
 
-# a = int(input("Enter the value of a:"))
-# b = int(input("Enter the value of c:"))
-# c = a - b
-# print(c)
+a = True
+b = False
+print(a+b)
 
-# p = int(input("Enter the principal:"))
-# t = float(input("Enter the time:"))
-# r = float(input("Enter the rate:"))
+a = int(input("Enter the value of a:"))
+b = int(input("Enter the value of c:"))
+c = a - b
+print(c)
 
-# i = (p*t*r)/100
+p = int(input("Enter the principal:"))
+t = float(input("Enter the time:"))
+r = float(input("Enter the rate:"))
 
-# print(int(i))
+i = (p*t*r)/100
 
-# r = float(input("Enter the value of radius:"))
-# area = 3.14*r**2
-# print("The value of area is:",area)
+print(int(i))
+
+r = float(input("Enter the value of radius:"))
+area = 3.14*r**2
+print("The value of area is:",area)
 
 a = 10
 print(float(a))

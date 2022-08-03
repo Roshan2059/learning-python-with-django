@@ -1,3 +1,5 @@
+#day1
+
 a = 90
 b = 40
 c = "hello"
@@ -14,8 +16,8 @@ print(a + b)
 print(e)
 print(a - b)
 
-# ** power
-# // floor division only prints the whole number
+# ** --> power
+# // --> floor division only prints the whole number
 
 print(a // b)
 print(a % b)
