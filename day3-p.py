@@ -6,5 +6,5 @@ if b == 2:
 else:
     print(a, " raised to the  power ", b, "is : ",a**b)
     
-done learning about chained conditionals
-hijo gareko jastai ho
+# done learning about chained conditionals
+# hijo gareko jastai ho
