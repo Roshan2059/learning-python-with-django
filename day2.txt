@@ -1,4 +1,4 @@
-#day2-notes
+day2-notes
 
 # To Concatenate string we should use , or + operator
 # example:
