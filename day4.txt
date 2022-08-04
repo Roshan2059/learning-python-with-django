@@ -1,0 +1,23 @@
+day4-notes
+
+Loop:
+There are only two loops in python:
+for loop and
+while loop
+
+for loop:
+syntax:
+for i in range(1):
+  //Code
+
+range is a function in python
+range can have 1-3 parameters which has their own meaning:
+# range(5) --> 0,1,2,3,4  for(i = 0; i < 5; i++)
+# range(1,5) --> 1,2,3,4  for(i = 0; i < 5; i++)
+# range(1,5,2) --> 1,3  for (i = 0; i < 5; i = i + 2)
+
+if there is one parameter it means start from zero and end at parameter-1
+
+if there is two parameter it means start from first-parameter and end at second-parameter
+
+if there is three parameter it means start from first-parameter, end at second-parameter and update the values by third-parameter
