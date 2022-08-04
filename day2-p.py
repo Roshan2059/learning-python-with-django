@@ -12,5 +12,3 @@
 a = 20
 print(float(a))
 print(str(a))
-
-
