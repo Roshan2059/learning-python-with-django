@@ -1,0 +1,38 @@
+day5-notes
+
+# string is a sequence of characters
+
+# end is just a keyword in python
+# harek letter ko paxadi tyo end ma lekheko kura lagxa
+a = "hello  world\n"
+for i in a:
+  if i != " ":
+    print(i, end = "")
+# jasto maile mathi ko code ma end ma khali xoddeko xu teivara letters haru tassiyara print hunxan
+# tara just tala ko program ma maile end ma , lekheko xu means harek letter or harek iteration paxadi , lagera print hunxa
+a = "hello  world\n"
+print("The letters are:")
+for i in a:
+  if i != " ":
+    print(i, end = ",")
+    
+# control statement:
+# break
+# continue
+# pass
+
+# break statement:
+for i in range(1,10):
+  if i == 5:
+    break
+  print(i)
+
+yo break lai chai kasari bujhum vanda kheri hamile bike chalairako xam ani agadi manxey ayo vaney hamile break hanem ani hami agadi jana paayenau matlab hami rokkiyau --> tyo chij ayepaxi tyo block of code terminate vayo
+  
+# continue statement:
+for i in range(1,5):
+    if i == 3:
+      continue
+    print(i)
+
+ani continue chai kasari bujhum vanda kheri hamile bike chalairako xam ani agadi manxey ayo ani hamile tyo ma lai xalera gayau ma tyo manxey lai skip gareu --> tyo chij ayepaxi tyo block of code lai skip garney ani feri continue garney
