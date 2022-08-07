@@ -1,0 +1,15 @@
+#day6-notes
+
+day 4 ma hamile loop ko barema hereka thhem
+tesma hamile for matra herem aile samma aba aja while loop herxam
+
+while loop:
+
+same for jastai ho thorai farak xa syntax wise
+for ma chai initialization ani condition ra updation eutai line ma hunxa
+while loop ma chai paila variable initialization garxa ani while ra condition eutai line ma lekhxa ani execute garnu parney chij haru ra updation chai while block vitra lekhxa
+example:
+i = 1
+while i < 6:
+  print(i)
+  i +=1
