@@ -15,7 +15,6 @@
 #     i = p * t * r / 100
 #     print(int(i))
 
-
 # cal()
 
 # Two types of functions:
@@ -67,8 +66,9 @@ def calc(a,b,o):
     print(a+b) 
   elif o == "/":
     print(a+b)
-  else: o == " " & o != "+,-,*,/":
+  elif o == " " & o != "+,-,*,/":
     print("Enter a valid operator")
+  else o == " "
 
 a = int(input("Enter the first number:"))
 b = int(input("Enter the second number:"))

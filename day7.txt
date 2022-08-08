@@ -1,4 +1,25 @@
-# def <function_name>():
-#   <operation>
+day7-notes
 
+sappai javascript, php jastai ho farak yetti ho ki js ra php ma function vanera lekhinxa vaney yesma def lekhinxa aru sappai same ho
+
+def <function_name>():
+   <operation>
+#calling a function
 # function_name()
+
+example:
+def hello():
+   print("Hello world")
+hello()
+
+# Two types of functions:
+# pre-defined function:
+predefined functions are the functions like print(), int(), str(), type(), input() etc. which are already defined in the python language
+# user-defined function:
+jati pani hami afaile custom function banauxau afno need anusar.... teslai chai user-defined function vaninxa
+
+# function without argument and non return type
+# function with argument and return type
+# function without argument and return type
+# function with argument and non return type
+
