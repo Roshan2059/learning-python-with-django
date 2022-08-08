@@ -1,0 +1,4 @@
+# def <function_name>():
+#   <operation>
+
+# function_name()
