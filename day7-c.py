@@ -7,7 +7,6 @@
 #   print("Hello world")
 # hello()
 
-
 # def cal():
 #     p = int(input("Enter p = "))
 #     t = int(input("Enter t = "))
@@ -26,10 +25,9 @@
 # function without argument and return type
 # function with argument and non return type
 
-
 # All the above written functions are function without argument and non return type
 
-# function with argument
+# function with argument and no return type
 # def area(l,b):
 #   a = l*b
 #   print("The area is: ",a)

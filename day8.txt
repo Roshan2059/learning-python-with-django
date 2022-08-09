@@ -1,0 +1,36 @@
+#day8-notes
+
+aja ko session ko takeaway chai k ho vaney jati sakdo function ko use garna parxa
+
+arko kura k bujhiyo vaney hamile eutai variable ma multiple values haru store garna mildorexa
+example:
+a = 10,20
+x,y = a
+print(x)
+output:10
+print(y)
+output:20
+
+tesaigari eutai function bata multiple values haru pani return garna mildorexa
+example:
+def cal(l,b,h):
+  area = l * b
+  volume = l * b * h
+  return area, volume
+
+a, v = cal (2,3,4)
+print("The area is : ", a)
+print("The volume is: ", v)
+
+aru ta tei function with argument and return values heriyo ani recursion halka touch gariyo
+
+recursion ko example chai halka herdihalum
+example:
+def add():
+  a = input("enter the first number)
+  b = inout("Enter the second number)
+  result = a + b
+  return a + b
+  if o == "y":
+  add()
+  
