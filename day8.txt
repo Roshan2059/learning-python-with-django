@@ -27,10 +27,11 @@ aru ta tei function with argument and return values heriyo ani recursion halka t
 recursion ko example chai halka herdihalum
 example:
 def add():
-  a = input("enter the first number)
-  b = inout("Enter the second number)
+  a = input("enter the first number")
+  b = inout("Enter the second number")
   result = a + b
-  return a + b
+  return result
+  print("Do you want to perform the operation again")
   if o == "y":
-  add()
-  
+  print("Result: ",add())
+print("The result is: ",add()) 

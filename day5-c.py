@@ -1,3 +1,5 @@
+# day5
+
 total = 0
 n = int(input("How many different products did you buy? :"))
 for i in range(1, n + 1):
