@@ -34,15 +34,17 @@
 # no. of product, price and quantity enter garna lagaune
 
 # Coding:
-total = 0
-gtotal = 0
-def bill(n, price, quantity):
-    for i in range(1, n+1):
-        total = price * quantity
-        gtotal = gtotal + total
+
+def bill(n):
+    total = 0
+    gtotal = 0
+    for i in range(n):
+      name = input("Enter name of item : ")
+      price = int(input("Enter price of product : "))
+      quantity = int(input("Enter quantity of product : "))
+      total = (price * quantity)
+      gtotal = gtotal + total
     print("Grand total is: ", gtotal)
 
 n = int(input("Enter number of items : "))
-a = int(input("Enter price of product : "))
-b = int(input("Enter quantity of product : "))
-bill(n, a, b)
+bill(n)
