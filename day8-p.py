@@ -8,7 +8,6 @@ def add():
     print("Result: ",add())
   else:
       print("Operation terminated")
-
 add()
 
 # questions on functions:
