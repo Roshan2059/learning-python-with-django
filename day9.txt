@@ -1,0 +1,110 @@
+day9-notes
+
+aja chai string suru gariyo
+String is immutable
+string vaneko k ho vaney just the sequence of characters
+teivara string ko harek element lai traverse garna milxa
+
+example:
+a = "I am Roshan"
+print(a[2])
+output: a
+
+string ko specific letters haru pani filter garna milxa
+
+example:
+b = "Hello world"
+print(b[0:5])
+output: Hello
+
+print(b[2:5])
+output: llo
+
+print(b[5:11])
+output: world
+
+yo ta vayo yeti dekhi yeti samma
+aba arko pani chij k garna milxa vaney yeti dekhi string ko end samma
+
+example:
+b = "Hello world"
+print(b[6:])
+output: world
+
+vaye varko jammai print garna paryo vaney
+b = "Hello world"
+print(b[0:])
+tara yo garna ta print(b) garera ni milihalxa
+
+aba arko pani k garna milxa vaney elements haru lai skip pani garna milxa
+example:
+a = "Roshan Panta"
+print(a[0:6:2])
+Output: Rsa
+
+first dekhi last samma skip gardai garna milxa:
+example:
+a = "Roshan Panta"
+print(a[::2])
+
+aba arko point xa slicing
+example:
+a = "hello world"
+b = a[0:5]
+c = a[5:]
+print(b)
+print(c)
+
+aba next topic xa string formatting:
+hamilai yo kura ta thaa xadai xa
+name = "Roshan"
+age = 20
+add = "Kathmandu"
+info = "Hello world I am " + name + ". I am from " + add + " I am " + str(age)
+print(info)
+
+yei chij lai yesari pani lekhna milxa
+name = "Roshan"
+age = 20
+add = "Kathmandu"
+info = f"Hello world I am {name}. I am {age} year old and I am from {add}"
+print(info)
+
+ho yesailai vanxa string formatting
+just double quotes agadi f lekhdina paro ani variable lai curly brackets le enclose gardina paro
+
+aba next topic xa searching:
+
+name = "ram shyam hari rita gita nita sita babita rangita asmita"
+if "sita" in name:
+   print("Yes! sita is there")
+
+just taking input from the user
+a = "Ram shyam hari sita gita nita sangita babita ranjita"
+search = input("Enter the value to search")
+if search in a:
+  print("hello")
+else:
+  print("The value you searched for is not here")
+
+some string methods:
+   count():
+   example:
+   a = "Ram shyam hari sita gita nita sangita babita ranjita"
+   search = input("Enter the value to search")
+   if search in a:
+      print(f"Is occured {a.count(search)} times")
+   else:
+      print("The value you searched for is not here")
+
+   replace():
+   example:
+      a = "Ram shyam hari nita gita sita rita"
+      print(a.replace("hari","laskdsa"))
+      print(a)
+
+   remove():
+   example:
+        a = "Ram shyam hari gita sita babita"
+        print(a.replace("hari", ""))
+        print(a)
