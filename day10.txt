@@ -1,0 +1,53 @@
+day10-notes
+
+So aja bata chai we are starting advanced data types/collection/data structures in python
+There are 4 types:
+list
+tuple
+set
+dictionary
+
+aja chai hami list herxam
+
+list:
+-Multiple values
+-Indexed
+-Ordered
+-Mutable
+
+same c,javascript,php ko array jastai ho
+
+syntax:
+var_name = ["value_1","value_2","value_3","value_n-1","value_n"]
+
+example:
+a = ["apple", "ball", "cat", "dog"]
+print(a)
+
+b = [1,2,3,4,5]
+print(b)
+
+list lai pani string nai jasto gari traverse garna milxa
+farak yetti ho ki string chai euta single entity ho vaney list ma chai entity haru comma seperated hunxan ra sabai xutta xutai entity hun
+
+example:
+a = ["apple","ball", "cat", "dog"]
+print(a[0:4])
+print(a[0:4:3])
+
+array concatenation
+example:
+a = ["apple", "ball", "cat"]
+b = ["hello", 'world']
+print(a+b)
+print(b+a)
+
+python language ma chai developer haru lai sajilo hos vanera ekdamai dherai functions haru xa
+aba herum list ko methods/function haru:
+
+max:
+example:
+min:
+example:
+sum:
+example:
