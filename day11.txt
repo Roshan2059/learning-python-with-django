@@ -1,0 +1,11 @@
+day11-notes
+
+# list methods:
+# append() : add value at the last index of the list
+# insert() : inserts value in the desired index of the list
+# extend() : concatenates the two strings
+# del() : It is not a function it is a keyword. It deletes the value with reference of index
+# remove() : It is same as delete but it removes the value with reference of name or the value
+# pop() : deletes the last value and if the index given it deletes the respective index
+# index() : prints the index of the given value
+# split() : converts string into list
