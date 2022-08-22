@@ -1,0 +1,9 @@
+# Dictionary
+# -Indexed
+# -Ordered
+# -Multiple data
+# -Mutable
+
+# d = {<key>:<value>,<key>:<value>,key>:<value>}
+# key of dictionary cannot be list but tuple can
+# value of dictionary can be list
