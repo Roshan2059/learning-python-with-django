@@ -1,0 +1,9 @@
+# files in python:
+# b= open('<file_name>','<mode>')
+# b.close()
+
+# read() -> r
+# create() -> x
+# write() -> w
+# append() -> a
+# close()   
