@@ -6,4 +6,7 @@
 # create() -> x
 # write() -> w
 # append() -> a
-# close()   
+# close()  
+
+pandas is just a python library
+pandas lai chai normally data analytics ko lagi use garinxa
