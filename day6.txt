@@ -1,4 +1,4 @@
-#day6-notes
+day6-notes
 
 day 4 ma hamile loop ko barema hereka thhem
 tesma hamile for matra herem aile samma aba aja while loop herxam
