@@ -51,3 +51,13 @@ min:
 example:
 sum:
 example:
+
+# a = []
+# n = int(input("Enter the value of n:"))
+# for i in range(n):
+#   x = int(input("Enter x = "))
+#   a = a + [x]
+# print(a)
+# print("The max value is: ", max(a))
+# print("The smallest value is: ", min(a))
+# print("The sum value is: ",sum(a))
