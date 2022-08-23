@@ -1,10 +1,12 @@
 day4-notes
 
+so aja bata chai hami loop start garna jasai xam:
 Loop:
 There are only two loops in python:
 for loop and
 while loop
 
+aja chai hami for loop herxam:
 for loop:
 syntax:
 for i in range(1):
