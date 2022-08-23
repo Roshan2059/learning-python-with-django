@@ -5,7 +5,7 @@ sappai javascript, php jastai ho farak yetti ho ki js ra php ma function vanera 
 def <function_name>():
    <operation>
 #calling a function
-# function_name()
+function_name()
 
 example:
 def hello():
@@ -22,4 +22,3 @@ jati pani hami afaile custom function banauxau afno need anusar.... teslai chai 
 # function with argument and return type
 # function without argument and return type
 # function with argument and non return type
-
