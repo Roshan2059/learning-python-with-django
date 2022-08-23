@@ -27,7 +27,7 @@ for i in range(1,10):
     break
   print(i)
 
-yo break lai chai kasari bujhum vanda kheri hamile bike chalairako xam ani agadi manxey ayo vaney hamile break hanem ani hami agadi jana paayenau matlab hami rokkiyau --> tyo chij ayepaxi tyo block of code terminate vayo
+yo break lai chai kasari bujhum vanda kheri hamile bike chalairako xam ani agadi manxey ayo vaney hamile break hanem ani hami agadi jana paayenau matlab hami rokkiyau --> tyo chij ayepaxi tyo block of code terminate hunxa
   
 # continue statement:
 for i in range(1,5):
@@ -35,4 +35,4 @@ for i in range(1,5):
       continue
     print(i)
 
-ani continue chai kasari bujhum vanda kheri hamile bike chalairako xam ani agadi manxey ayo ani hamile tyo ma lai xalera gayau ma tyo manxey lai skip gareu --> tyo chij ayepaxi tyo block of code lai skip garney ani feri continue garney
+ani continue chai kasari bujhum vanda kheri hamile bike chalairako xam ani agadi manxey ayo ani hamile tyo ma lai xalera gayau ma tyo manxey lai skip gareu --> tyo chij ayepaxi tyo block of code lai skip garxa ani feri continue garney
