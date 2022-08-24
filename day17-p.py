@@ -37,7 +37,7 @@ file = open('result1.csv','w')
 file.write('Name of student,English,Nepali,Maths,Science,Social\n')
 file.write(result)
 file.close()
-
+     
 import pandas as pd
 a = pd.read_csv('result1.csv')
 print(a)

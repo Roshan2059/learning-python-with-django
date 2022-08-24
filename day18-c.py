@@ -18,10 +18,7 @@ df[df['add'] == 'Bara']
 
 data = df[df['age'] >50]
 data
-
 data.to_csv('new_data.csv')
-
-
 
 data = df[(df['age'] >50) & (df['add']=='Patan')]
 data
