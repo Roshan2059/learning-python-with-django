@@ -1,48 +1,48 @@
 # exception handling:
-# try:
-#     pass
-# except:
-#     pass
-# try:
-#     x = int(input('x = '))
-# except:
-#     print('Enter only int values')
+try:
+    pass
+except:
+    pass
+try:
+    x = int(input('x = '))
+except:
+    print('Enter only int values')
 
-# try:
-#   a = int(input('Enter a = '))
-#   b = int(input('Enter b = '))
-#   c = a/b
+try:
+  a = int(input('Enter a = '))
+  b = int(input('Enter b = '))
+  c = a/b
 
-# except:
-#   print('Error!')
+except:
+  print('Error!')
 
-# else:
-#   print(c)
+else:
+  print(c)
 
 # What if we want to perform the calculation again after the error
 # Just put the function inb the except block
-# def cal():
-#     try:
-#         a = int(input('Enter a = '))
-#         b = int(input('Enter b = '))
-#         c = a / b
+def cal():
+    try:
+        a = int(input('Enter a = '))
+        b = int(input('Enter b = '))
+        c = a / b
 
-#     except:
-#         print('Error!')
-#         cal()
+    except:
+        print('Error!')
+        cal()
 
-#     else:
-#         print(c)
+    else:
+        print(c)
 
-# try:
-#     a = int(input('Enter a = '))
-#     b = int(input('Enter b = '))
-#     c = a / b
-#     print(c)
-# except ZeroDivisionError:
-#     print('Error! value of b cannot be zero')
-# except ValueError:
-#     print('Error! values should be of integer form')
+try:
+    a = int(input('Enter a = '))
+    b = int(input('Enter b = '))
+    c = a / b
+    print(c)
+except ZeroDivisionError:
+    print('Error! value of b cannot be zero')
+except ValueError:
+    print('Error! values should be of integer form')
 
 # raise statement:
 raise ZeroDivisionError
@@ -60,6 +60,7 @@ except ZeroDivisionError:
 
 except ValueError:
     print("Error! value of a and b should be int")
+    
 #assert statement:
 # a = 10
 # assert a < 5
